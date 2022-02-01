@@ -1,0 +1,29 @@
+This data represents ten complete years of Schedule P development for many NAIC reporting companies. The data was prepared by Glenn Meyers and Peng Shi and is available from the CAS https://www.casact.org/research/index.cfm?fa=loss_reserves_data.
+
+NOte that the columns have been given more user friendly names. The original column names may be restored by using the CasColNames function.
+
+GroupCode: NAIC company code
+
+Company
+
+AccidentYear
+
+DevelopmentYear
+
+Lag: Integer indicating the development lag in years.
+
+CumulativeIncurred
+
+CumulativePaid
+
+IBNR: Bulk and IBNR reserves
+
+DirectEP: Direct and assumed earned premium, gross of reinsurance.
+
+CededEP: Earned premium ceded to reinsurers.
+
+NetEP: Premium earned net of reinsurance.
+
+Single: Either 1 or 0. 1 indicates a single entity, 0 indicates a group entity.
+
+Reserve1997: Posted reserves as of year-end 1997.
